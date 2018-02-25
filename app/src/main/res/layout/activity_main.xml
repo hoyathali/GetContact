@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="eswar.getcontact.MainActivity">
+
+<EditText
+    android:layout_width="match_parent"
+    android:maxLines="1"
+    android:layout_height="wrap_content"
+    android:hint="Mobile"
+    android:drawableLeft="@drawable/mobile"
+    android:id="@+id/number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:hint="Code 10-100"
+        android:drawableLeft="@drawable/encrypt"
+        android:id="@+id/code"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:maxLines="10"
+        android:layout_height="200dp"
+        android:hint="Enter message"
+        android:inputType="textMultiLine"
+        android:drawableLeft="@drawable/message"
+        android:id="@+id/msg"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/encrypt"
+        android:text="Send Encrypted Message"/>
+
+</LinearLayout>

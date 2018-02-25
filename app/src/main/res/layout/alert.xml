@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/co"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/mess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Paste message"
+        android:inputType="textPersonName"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+         />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Decrypt" />
+</LinearLayout>
